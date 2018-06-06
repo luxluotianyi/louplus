@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+	{% block css %}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="bootstrap-3.3.7-dist/css/bootstrap.min.css") }}">
+	{% endblock %}
+</head>
+<body>
+	{% block test %}
+
+	{% endblock %}
+	{% block js %}
+	<script type="text/javascript" src="{{ url_for('static', filename="bootstrap-3.3.7-dist/js/bootstrap.min.js") }}"></script>
+	{% endblock %}
+
+</body>
+</html>

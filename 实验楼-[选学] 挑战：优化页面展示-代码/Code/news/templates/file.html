@@ -1,0 +1,9 @@
+{% extends "base.html"%}
+{% block test%}
+	<h1>title:{{ file['title'] }}</h1>
+	<p>created_time:{{ file['created_time'] }}</p>
+	<p>category:{{ file['category'] }}</p>
+	<p>content:{{ file['content'] }}</p>
+	<p>file:{{ file }}</p>
+	<p>category_id:{{ file['category_id'] }}</p>
+{% endblock %}
